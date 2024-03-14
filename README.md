@@ -34,13 +34,13 @@ To train the RNN model, input sequences and corresponding target values are gene
 The RNN model architecture consists of a SimpleRNN layer followed by a Dense layer. The number of neurons in the SimpleRNN layer, the dropout rate, and other hyperparameters are configurable.
 
 ### 6. Model Training
-The RNN model is trained using the training input sequences and target values. The training process involves specifying the number of epochs, batch size, and validation split. The training progress is visualized using matplotlib.
+The RNN model is trained using the training input sequences and target values. The training process involves specifying the number of epochs, batch size, and validation split. The training progress is visualised using matplotlib.
 
 ### 7. Model Evaluation
 Once trained, the RNN model is evaluated on both training and test datasets to assess its performance. Mean Squared Error (MSE) is used as the evaluation metric.
 
-### 8. Predictions Visualization
-Finally, the script generates predictions using the trained model and visualizes them alongside actual stock prices. This provides insight into the model's ability to capture stock price trends.
+### 8. Predictions visualisation
+Finally, the script generates predictions using the trained model and visualises them alongside actual stock prices. This provides insight into the model's ability to capture stock price trends.
 
 
 
